@@ -1,0 +1,12 @@
+[workspace]
+members = ["frontend", "backend", "common"]
+default-members = ["backend"]
+
+[package]
+name = "FullStackRust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yew ="0.19.3"
+
